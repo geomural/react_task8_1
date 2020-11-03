@@ -1,0 +1,23 @@
+.App {
+  text-align: left;
+}
+
+table {
+  width: 250px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-collapse: collapse; /* Отображать только одинарные линии */
+  display: inline-block; /* Отображать таблицы рядом горизонтально */
+  vertical-align: top; /* Прижать таблицы к верхнему краю */
+ }
+ td {
+  border-spacing: 10px; 
+  padding: 5px; /* Поля вокруг содержимого ячеек */
+  border: 1px solid gray; /* Граница вокруг ячеек */
+  padding: 10px; /* Отступ слева от границы ячейки */
+ }
+ td:hover {
+  background-color: #3d1cd3;
+  color: white;
+  cursor: pointer;
+ }
